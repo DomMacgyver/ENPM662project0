@@ -63,7 +63,7 @@ Communications Failed
 
 acceleration = 5.0
 duration = 5
-desiredVelocity = 5
+desiredVelocity = 5.0
 velocity = 0.0
 
 
@@ -97,14 +97,17 @@ def main():
         while(endWhileLoop):
             timeElapsed = time.time()- timei
             if(timeElapsed < timeP1):
-            	veloctiy = acceleration * timeElapsed
+            	
+                velocity = acceleration * timeElapsed
             elif(timeElapsed < timeP2):
             	#do nothing
             	x=1
             elif(timeElapsed < timeP3):
-                veloctiy = veloctiy - acceleration * (timeElapsed-timeP2)
+                
+                velocity = velocity - acceleration * (timeElapsed-timeP2)
             else:
-            	endWhileLoop=0
+            	
+                endWhileLoop=0
     		
 		
             twist = Twist()
