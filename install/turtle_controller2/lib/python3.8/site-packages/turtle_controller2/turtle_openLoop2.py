@@ -1,3 +1,4 @@
+#modifed 09/28/24 from teleop program by Dominic Ggliardi
 
 #!/usr/bin/env python
 #
@@ -60,10 +61,15 @@ Communications Failed
 """
 
 
+acceleration = 5.0
+duration = 5
+desiredVelocity = 5
+velocity = 0.0
 
 
-
-
+timeP1 = desiredVelocity / acceleration
+timeP2 = 0.5*timeP1*timeP1*acceleration/desiredVelocity+timeP1
+timeP3 = timeP2 + timeP1
 
 
 
@@ -87,14 +93,25 @@ def main():
     control_angular_velocity = 0.0
     timei = time.time()
     try:
-
-        while(time.time()- timei < 5):
-            
+        endWhileLoop = 1
+        while(endWhileLoop):
+            timeElapsed = time.time()- timei
+            if(timeElapsed < timeP1):
+            	veloctiy = acceleration * timeElapsed
+            elif(timeElapsed < timeP2):
+            	#do nothing
+            	x=1
+            elif(timeElapsed < timeP3):
+                veloctiy = veloctiy - acceleration * (timeElapsed-timeP2)
+            else:
+            	endWhileLoop=0
+    		
 		
             twist = Twist()
+            
 
 
-            twist.linear.x = 5.0
+            twist.linear.x = velocity
             twist.linear.y = 0.0
             twist.linear.z = 0.0
 

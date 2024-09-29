@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_openLoop = turtle_controller2.turtle_openLoop:main'
+            'turtle_openLoop = turtle_controller2.turtle_openLoop:main',
+            'turtle_openLoop2 = turtle_controller2.turtle_openLoop2:main'
         ],
     },
 )

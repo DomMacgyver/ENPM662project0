@@ -1,0 +1,35 @@
+running egg_info
+creating build/turtle_controller2/turtle_controller2.egg-info
+writing build/turtle_controller2/turtle_controller2.egg-info/PKG-INFO
+writing dependency_links to build/turtle_controller2/turtle_controller2.egg-info/dependency_links.txt
+writing entry points to build/turtle_controller2/turtle_controller2.egg-info/entry_points.txt
+writing requirements to build/turtle_controller2/turtle_controller2.egg-info/requires.txt
+writing top-level names to build/turtle_controller2/turtle_controller2.egg-info/top_level.txt
+writing manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+reading manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+writing manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build
+creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib
+creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+copying turtle_controller2/turtle_openLoop.py -> /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+copying turtle_controller2/__init__.py -> /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+running install
+running install_lib
+creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+copying /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2/turtle_openLoop.py -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+copying /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2/__init__.py -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+byte-compiling /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2/turtle_openLoop.py to turtle_openLoop.cpython-38.pyc
+byte-compiling /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index
+creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index
+creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index/packages
+copying resource/turtle_controller2 -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index/packages
+copying package.xml -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/turtle_controller2
+running install_egg_info
+Copying build/turtle_controller2/turtle_controller2.egg-info to /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing turtle_openLoop script to /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/turtle_controller2
+writing list of installed files to '/home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/install.log'

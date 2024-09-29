@@ -1,0 +1,37 @@
+[0.767s] Invoking command in '/home/macgyver/testWS/src/turtle_controller2': PYTHONPATH=/home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turtle_controller2 build --build-base /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build install --record /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/install.log --single-version-externally-managed install_data
+[0.966s] running egg_info
+[0.967s] creating build/turtle_controller2/turtle_controller2.egg-info
+[0.967s] writing build/turtle_controller2/turtle_controller2.egg-info/PKG-INFO
+[0.968s] writing dependency_links to build/turtle_controller2/turtle_controller2.egg-info/dependency_links.txt
+[0.968s] writing entry points to build/turtle_controller2/turtle_controller2.egg-info/entry_points.txt
+[0.968s] writing requirements to build/turtle_controller2/turtle_controller2.egg-info/requires.txt
+[0.969s] writing top-level names to build/turtle_controller2/turtle_controller2.egg-info/top_level.txt
+[0.970s] writing manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+[0.998s] reading manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+[1.000s] writing manifest file 'build/turtle_controller2/turtle_controller2.egg-info/SOURCES.txt'
+[1.000s] running build
+[1.000s] running build_py
+[1.000s] creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build
+[1.000s] creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib
+[1.001s] creating /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+[1.001s] copying turtle_controller2/turtle_openLoop.py -> /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+[1.001s] copying turtle_controller2/__init__.py -> /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2
+[1.001s] running install
+[1.001s] running install_lib
+[1.002s] creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+[1.002s] copying /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2/turtle_openLoop.py -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+[1.003s] copying /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build/lib/turtle_controller2/__init__.py -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2
+[1.003s] byte-compiling /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2/turtle_openLoop.py to turtle_openLoop.cpython-38.pyc
+[1.005s] byte-compiling /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2/__init__.py to __init__.cpython-38.pyc
+[1.005s] running install_data
+[1.006s] creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index
+[1.006s] creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index
+[1.006s] creating /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index/packages
+[1.007s] copying resource/turtle_controller2 -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/ament_index/resource_index/packages
+[1.007s] copying package.xml -> /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/share/turtle_controller2
+[1.007s] running install_egg_info
+[1.008s] Copying build/turtle_controller2/turtle_controller2.egg-info to /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages/turtle_controller2-0.0.0-py3.8.egg-info
+[1.010s] running install_scripts
+[1.024s] Installing turtle_openLoop script to /home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/turtle_controller2
+[1.025s] writing list of installed files to '/home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/install.log'
+[1.043s] Invoked command in '/home/macgyver/testWS/src/turtle_controller2' returned '0': PYTHONPATH=/home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/macgyver/testWS/src/turtle_controller2/install/turtle_controller2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turtle_controller2 build --build-base /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/build install --record /home/macgyver/testWS/src/turtle_controller2/build/turtle_controller2/install.log --single-version-externally-managed install_data
